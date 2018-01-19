@@ -1,7 +1,7 @@
 var playlist = {
-  Marina: "Blue",
-  MJ: "Thriller",
-  MIA: "Powa",
+  Marina: 'Blue',
+  MJ: 'Thriller',
+  MIA: 'Powa',
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
