@@ -15,4 +15,4 @@ function removeFromPlaylist(obj, key) {
 
 updatePlaylist(playlist, 'Gaga', 'Bad Romance');
 
-removeFromPlaylist(playlist, "Gaga");
+removeFromPlaylist(playlist, 'Gaga');
