@@ -5,12 +5,12 @@ var playlist = {
 };
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  obj[key] = value;
+  playlist[artistName] = songTitle;
 
-  return obj;
+  return playlist;
 };
 
-function removeFromPlaylist(obj, key) {
-  delete obj.key;
-  return obj;
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.ArtistName;
+  return playlist;
 };
