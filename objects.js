@@ -12,7 +12,3 @@ function removeFromPlaylist(obj, key) {
   delete obj.key;
   return obj;
 };
-
-updatePlaylist(playlist, 'Gaga', 'Bad Romance');
-
-removeFromPlaylist(playlist, 'Gaga');
