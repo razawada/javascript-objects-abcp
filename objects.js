@@ -1,16 +1,16 @@
-var playlist = {
+var myPlaylist = {
   Marina: "Blue"
 };
 
-function updatePlaylist(obj, key, value) {
-  obj[key] = value;
+function updatePlaylist(playlist, artistName, song) {
+  playlist[artistName] = value;
 
-  return obj;
+  return playlist;
 };
 
-function removeFromPlaylist(obj, key) {
-  delete obj.key;
-  return obj;
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName;
+  return playlist;
 };
 
 updatePlaylist(playlist, 'Gaga', 'Bad Romance');
