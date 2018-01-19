@@ -1,8 +1,10 @@
 var playlist = {
-  Marina: "Blue"
+  Marina: "Blue",
+  MJ: "Thriller",
+  MIA: "Powa",
 };
 
-function updatePlaylist(obj, key, value) {
+function updatePlaylist(playlist, artistName, songTitle) {
   obj[key] = value;
 
   return obj;
